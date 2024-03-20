@@ -1,0 +1,127 @@
+*{
+  background: #F3F5FC;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  line-height: 150%;
+  
+}
+
+.logo{
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 10%;
+}
+header{
+  display: flex;
+}
+h1{
+ font-size: 32px;
+}
+main{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.campo-text{
+  border: none;
+  color: #0A3871;
+  margin-top: 90px;
+  text-transform: lowercase;
+  height: 353px;
+  width: 573px;
+  
+}
+
+  
+  ::placeholder{color: #0A3871;}
+  .campo-text:focus{
+    outline: none;
+    
+  }
+
+  .mensaje{
+    background: white;
+    
+    background-image:url("img/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 150px;
+    border: none;
+    color:#0A3871 ;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+    padding-bottom: 50px;
+    width: 400px;
+    height: 800px;
+    top: 40px;
+    left: 1000px;
+    border-radius:32px;
+    text-align :center;
+    text-size-adjust: 22px;
+  }
+  .mensaje:focus{
+    outline: none ;
+    
+  }
+
+  .btn{
+   display: flex;
+   margin-top: 18px;
+  }
+
+  .btndesencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+   
+  }
+
+  .btnencriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: white;
+    height: 67px;
+
+    width: 328px;
+  }
+
+  .btncopy{
+   
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #0A3871;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    width: 336px;
+    left: 1029px;
+    bottom: 200px;
+    position: absolute;
+
+  }
+  .lab{
+    top: 200px;
+  }
+.informacion{
+  color: #464343;
+  font-size: 18px;
+ 
+}
+.informacion::before {
+  content: "⊛ ";
+}
+
